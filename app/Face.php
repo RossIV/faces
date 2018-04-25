@@ -20,4 +20,12 @@ class Face extends Model
             ->generateSlugsFrom('title')
             ->saveSlugsTo('slug');
     }
+
+    /**
+     * Get the owner associated with the FaceResource
+     */
+    public function owner()
+    {
+        return $this->belongsTo('App\User', 'created_by');
+    }
 }
