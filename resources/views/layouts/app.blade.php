@@ -1,7 +1,11 @@
 @include('includes.head')
-@include('includes.header')
-<main role="main">
-    @yield('content')
-</main>
-@include('includes.footer')
+<body>
+    <div id="app">
+        @include('includes.header')
+        <main role="main">
+            <router-view></router-view>
+        </main>
+        @include('includes.footer')
+    </div>
+</body>
 @include('includes.foot')
