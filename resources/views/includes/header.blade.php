@@ -7,10 +7,8 @@
                     <p class="text-muted">Inspired by #kristapscam in <a href="http://robojackets.org">RoboJackets</a> Slack, Faces is the home of our favorite people's faces.</p>
                 </div>
                 <div class="col-sm-4 offset-md-1 py-4">
-                    <h4 class="text-white">Contact</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="mailto:faces@rosslindsay.com" class="text-white">Email</a></li>
-                    </ul>
+                    <h4 class="text-white">Navigation</h4>
+                    @include('includes.nav')
                 </div>
             </div>
         </div>
